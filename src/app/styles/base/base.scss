@@ -1,0 +1,29 @@
+*,
+*:before,
+*:after{
+  box-sizing: border-box;
+}
+
+html{
+  height: 100%;
+}
+
+body{
+  min-height: 100%;
+  font: 14px/1 $sans-serif;
+  font-weight: 400;
+  color: $black;
+  background: $white;
+}
+
+a,
+a:link,
+a:visited,
+a:focus{
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}

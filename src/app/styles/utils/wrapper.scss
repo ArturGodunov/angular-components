@@ -1,0 +1,5 @@
+.wrapper {
+  width: $wrapper-width + ($gutter * 2);
+  margin: 0 auto;
+  padding: 0 $gutter;
+}

@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+
+// Reset
+@import "app/styles/reset";
+
+// Base
+@import "app/styles/base/vars";
+@import "app/styles/base/mixins";
+@import "app/styles/base/base";
+
+// Components
+//@import "app/styles/components/button";
+
+// Utils
+@import "app/styles/utils/wrapper";
